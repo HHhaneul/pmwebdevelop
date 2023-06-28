@@ -1,0 +1,145 @@
+람다식(Lambda expression)
+
+1. 람다식이란?
+	- 메서드를 하나의 식으로 표현한
+
+	참고)
+	 함수형 프로그래밍
+		1) 함수 - 단일 기능
+		2) 함수가 값
+			☆★ - 매개변수로 사용 가능 ★☆
+			☆★ - 반환값으로 사용 가능 ★☆
+
+	- 자바는 함수가 함수, 값으로 절대 사용 X
+
+- 인터페이스: 객체가 되는 조건 (지역, 멤버 변수)
+
+2. 람다식 문법 살펴보기
+	인터페이스의 객체가 되는 조건 -> 식으로 표현
+	1) 인터페이스명, 함수명 생략
+	2) 매개변수, 코드 구현부분({ .. }) ->
+	3) 자료형
+	4) 구현코드가 한 줄 -> { ... } 생략 가능
+		(반드시 return 예약어도 생략)
+	5) 매개변수의 변수명도 최대한 짧게 쓰는게 관례
+	(1자)
+	6) 매개변수가 1개이면 (...) 생략 가능
+	7) 매개변수가 없을 떄 (...) 생략 불가능
+	
+3. 람다식 사용하기
+
+4. 함수형 인터페이스 (Funtional Interface)
+	- 람다식의 형식 체크: 단일 기능으로써 1개의 메서드만 정의 되어 있는지...
+	@FunctionallInterface
+	
+5. 함수형 인터페이스 타입의 매개변수와 반환 타입
+
+6. java.util.funtion
+	- 일반적으로 정의하는 함수의 유형을 인터페이스로 정의 제공
+		☆★암기★☆
+	Supplier: T get() - 매개변수 X, 반환값 O		
+	Consumer: void accept(T t) - 매개변수 O, 반환값 X	
+	Function<T, R>: R apply(T t) - 매개변수 O, 반환값 O
+	Predicate: bolean test(T t): - 매개변수 O, 반환값 boolean
+
+	- 매개변수가 2개짜리인 인터페이스 - Bi
+	BiConsumer: void accept(T t, U u)
+	BiFunction<T, U, R>: R apply(T t, U u)
+	BiPredicate<T, U>: boolean test(T t, U u)
+
+	매개변수와 반환값 자료형이 같은 경우
+	- 매개변수가 1개
+	UnaryOperator<T>: T apply(T t); == Function<T, T>
+			
+	- 매개변수가 2개
+	BinaryOperator<T>: T apply(T t1, T t2)	 == BiFuntion<T, T, T>
+
+
+	- 기본형 타입 함수형 인터페이스 정의
+
+7. Function의 합성과 Predicate의 결합
+
+	Function
+	- 함수의 결합
+		andThen()
+		compose()
+		
+	- 동등 함수
+		identity(): x -> x
+
+	Predicate의 결합 
+	- 조건식의 결합: 논리 연산자
+	- and(Predicate ... )
+	- or(Predicate ... )
+	- negate(): 부정 (참 -> 거짓, 거짓 -> 참)
+
+8. 메서드 참조
+	- 짧은게 좋다.
+	
+
+
+
+
+
+메서드 1개
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+Supplier: T get() - 매개변수 X, 반환값 O
+Consumer: void accept(T t) - 매개변수 O, 반환값 X
+function<T, R>: R apply(T t) - 매개변수 O, 반환값 O
+Predicate<T t>: boolean test(T t) - 매개변서 O, 반환값 boolean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

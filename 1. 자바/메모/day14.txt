@@ -1,0 +1,28 @@
+java.lang 패키지
+
+JDK - JAVA Development Kit
+- 자바에서 기본이 될 수 있는 클래스가 있는 패키지
+
+
+Object 클래스
+1. Object 클래스에 정의된 메서드
+
+2. toString() 메서드
+3. equals() 메서드
+4. hashCode() 메서드
+
+String 메서드
+
+1. String을 선언하는 두 가지 방법
+2. String 클래스의 final char[] 변수
+3. StringBuffer와 StringBuilder 클래스 활용하기
+
+-----------------------------------------------------
+
+컴파일러가 자동 추가해주는 소스
+1. 기본 생성자
+2. 생성자의 첫번째 줄 - super()
+3. 인터페이스 메서드 - public abstract
+4. 인터페이스 변수 - public static final: 정적 상수
+5. 지역 내부 클래스 지역변수 -> 상수화 final
+6. 패키지명 바로 아래 줄 import java.lang.*;

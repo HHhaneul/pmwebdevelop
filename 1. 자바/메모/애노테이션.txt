@@ -1,0 +1,55 @@
+애노테이션(Annotation)
+- 주석, 주해
+- 정보 전달 ☆
+- @interface 애노테이션 명
+	// extends java.lang.annotation.Annotation
+
+표준 애노테이션: JDK 정의된 애노테이션
+	@Override
+	@Deprecated
+	...
+
+메타 애노테이션
+	- 애노테이션을 정의할 수 있는 애노테이션
+	- @Target
+		- 적용 대상
+		ElementType
+			.TYPE
+			.METHOD
+			.FIELD
+			.PARAMETER
+			.CONSTRUCTOR
+			...
+	- @Retention
+		- 정보 전달 범위
+			.SOURCE
+				- 컴파일 시점에 정보 전달 (컴파일러)
+				예) @Override
+
+			.CLASS: 기본값				
+			.RUNTIME: 실행 중 정보 전달
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

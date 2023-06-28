@@ -1,0 +1,168 @@
+java.time 패키지 (JDK 8)
+- java.time: 핵심 클래스 (날짜, 시간)
+- java.time.format: 형식화 / DateTimeFormatter (자바객체 -> 형식화된 날짜 문자열)
+- java.time.temporal: 날짜 시간 필드, 단위
+			TemporalField - ChronoField: 날짜 시간 필드 
+			TemporalUnit - ChronoUnit: 날짜 시간 단위
+- java.time.zone: 시간대
+		Zonedld
+		ZonedOffset
+
+1. 핵심 클래스
+1) LocalDate - 날짜
+	-> LocalDateTime 변환 메서드
+	-> LocalDateTime atTime(LocalTime localtime);
+
+2) LocalTime - 시간
+	-> LocalDateTime 변환 메서드
+	-> LocalDateTime atDay(LocalDate localDate)
+
+3) LocalDateTime - 날짜/시간
+		- LocalDate + LocalTime
+
+4) ZonedDateTime - 날짜/시간 + 시간대
+	- Zoneld		- LocalDateTime + 시간대 (Zoneld....)
+			- Zoneld.of("시간대 ID");
+				예) Asia/Seoul
+					America/New_York
+
+				- withZoneSameInstant(): 각 시간대 별 현재 시간
+
+				- 서머타임제: 고려해서 반영
+
+5) OffsetDateTime - 날짜/시간 + 시간대
+	- ZonedOffset	- LocalDateTime + 시간대 (ZonedOffset...)
+			- 시간 차이 +9 // 물리적 시간차이
+			- withOffsetSameInstant(): 각 시간 차이 별 현재 시간
+
+- 날짜와 시간 객체 생성
+	- of(int year ....): 직접 날짜와 시간을 지정
+	- now(): 현재 지금 날짜시간
+
+- 특정 필드의 값 가져오가 - get(), getXXX()
+	- TemporalField field
+		- enum ChronoField
+	- int get(TemporalField field);
+
+	참고)
+
+	DayOfWeek::getDisplayName(TextStyle
+
+- 필드의 값 변경하기 - with(), plus(), minus();
+	- 반환값이 새로운 객체 / 기족 시간의 불변성 유지
+	- with(): 날짜, 시간 변경
+		- with(TemporalField field, int value)
+		- withXxx(int value);
+
+	- plus(): 날짜, 시간 (+)
+		- plus(long value, TemporalUnit field);
+		- plusXxx(long value)
+
+	- minus(): 날짜, 시간 (-)
+		- minus(long value, TemporalUnit field);
+		- minusXxx(long value)
+
+	참고)
+	- ChronoUnit: 날짜, 시간 단위
+
+- 날짜와 시간의 비교 - isAfter(), isBefore(), isEqual()
+- LocalTime의 turncatedTo()
+
+
+2. Period와 Duration
+	- between()과 until()
+	- of(), with()
+	- 다른 단위로 변환 - toTotalMonth(), toDays(), toHours(), toMinutes()
+
+	Period: 날짜사이 간격 (년, 월, 일) /
+	Duration: 시간 사이 간격 (초, 나노초) /
+
+	- TemporalAmount 인터페이스 - 설계 툴
+
+3. 객체 생성하기
+
+4. Temporal과 TemporalAmount
+
+5. TemporalUnit과 TemporalField
+
+-------------------------------------------------------------
+
+
+TemporalAmount
+1) Period
+	- static Period between(....);
+
+2) Duration
+	-getSecond();
+
+
+
+
+
+
+
+
+
+파싱과 포맷
+1. DateTimeFormatter
+	ofPattern("...."): 형식화할 날짜 시간 패턴
+	.format(TemporalAccessor ...): 형식화
+
+2. 문자열을 날짜와 시간으로 파싱하기
+	핵심 클래스의 메서드
+		parse
+
+	예) LocalDateTime
+		.parse()
+
+
+format(...) 자바 객체 -> 형식화된 문자열
+parse(...) 형식화된 문자열
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+참고)
+Temporal, TemporalAccessor, TemporalAdjuster
+- LocalDate, LocalTime, LocalDateTime, ZonedDateTime, OffsetDateTime, Instant 등
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

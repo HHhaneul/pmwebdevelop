@@ -1,0 +1,8 @@
+깃허브
+https://github.com/yonggyo1125
+
+java docs
+file:///F:/%EA%B9%80%ED%95%98%EB%8A%98/docs/api/index.html
+
+javascript
+https://developer.mozilla.org/ko/

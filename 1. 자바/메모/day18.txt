@@ -1,0 +1,211 @@
+날짜와 시간
+java.util
+1. Date - JDK1.0
+2. Calendar - JDK 1.1
+	- 생성자 메서드 protected: 직접 new 연산자를 통해서 생성불가
+	- static Calendar getInstance(): 객체 생성 후 조회
+		- 그레고리력 (서기):
+		- 불기
+
+		Locale
+			- GregorianCalendar()
+			- Budi....
+
+	- 날짜, 시간 조회
+		.get(날짜, 시간 항목 필드 상수)
+
+	- 날짜, 시간을 변경
+		.set(날짜, 시간 항목 필드 상수, 값)
+		.add(필드명, 값): 날짜 시간을 뒤로 옮기거나 - 값이 양수, 앞으로 변경 - 값이 음수
+		.roll(필드명, 값);
+		.roll(필드명, true); 시간을 한 칸 뒤로
+		.roll(필드명, false); 시간을 한 칸 앞으로	
+
+	- 단점
+		1) 날짜 변경 시 원 객체가 변동 / 원 객체는 사용 불가
+		2) add()가 날짜, 시간 가감 - 명칭에서 오는 혼동 
+		3) 시간 단위, 필드에 대한 상수가 너무 한 곳에 몰려 있는 단점
+
+java.time 패키지 (JDK 8)
+- java.time: 핵심 클래스 (날짜, 시간)
+- java.time.format: 형식화 / DateTimeFormatter (자바객체 -> 형식화된 날짜 문자열)
+- java.time.temporal: 날짜 시간 필드, 단위
+			TemporalField - ChronoField: 날짜 시간 필드 
+			TemporalUnit - ChronoUnit: 날짜 시간 단위
+- java.time.zone: 시간대
+		Zonedld
+		ZonedOffset
+
+1. 핵심 클래스
+1) LocalDate - 날짜
+	-> LocalDateTime 변환 메서드
+	-> LocalDateTime atTime(LocalTime localtime);
+
+2) LocalTime - 시간
+	-> LocalDateTime 변환 메서드
+	-> LocalDateTime atDay(LocalDate localDate)
+
+3) LocalDateTime - 날짜/시간
+		- LocalDate + LocalTime
+
+4) ZonedDateTime - 날짜/시간 + 시간대
+	- Zoneld		- LocalDateTime + 시간대 (Zoneld....)
+			- Zoneld.of("시간대 ID");
+				예) Asia/Seoul
+					America/New_York
+
+				- withZoneSameInstant(): 각 시간대 별 현재 시간
+
+				- 서머타임제: 고려해서 반영
+
+5) OffsetDateTime - 날짜/시간 + 시간대
+	- ZonedOffset	- LocalDateTime + 시간대 (ZonedOffset...)
+			- 시간 차이 +9 // 물리적 시간차이
+			- withOffsetSameInstant(): 각 시간 차이 별 현재 시간
+
+- 날짜와 시간 객체 생성
+	- of(int year ....): 직접 날짜와 시간을 지정
+	- now(): 현재 지금 날짜시간
+
+- 특정 필드의 값 가져오가 - get(), getXXX()
+	- TemporalField field
+		- enum ChronoField
+	- int get(TemporalField field);
+
+	참고)
+
+	DayOfWeek::getDisplayName(TextStyle
+
+- 필드의 값 변경하기 - with(), plus(), minus();
+	- 반환값이 새로운 객체 / 기족 시간의 불변성 유지
+	- with(): 날짜, 시간 변경
+		- with(TemporalField field, int value)
+		- withXxx(int value);
+
+	- plus(): 날짜, 시간 (+)
+		- plus(long value, TemporalUnit field);
+		- plusXxx(long value)
+
+	- minus(): 날짜, 시간 (-)
+		- minus(long value, TemporalUnit field);
+		- minusXxx(long value)
+
+	참고)
+	- ChronoUnit: 날짜, 시간 단위
+
+- 날짜와 시간의 비교 - isAfter(), isBefore(), isEqual()
+- LocalTime의 turncatedTo()
+
+
+2. Period와 Duration
+	- between()과 until()
+	- of(), with()
+	- 다른 단위로 변환 - toTotalMonth(), toDays(), toHours(), toMinutes()
+
+	Period: 날짜사이 간격 (년, 월, 일) /
+	Duration: 시간 사이 간격 (초, 나노초) /
+
+	- TemporalAmount 인터페이스 - 설계 툴
+
+3. 객체 생성하기
+
+4. Temporal과 TemporalAmount
+
+5. TemporalUnit과 TemporalField
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+참고)
+Temporal, TemporalAccessor, TemporalAdjuster
+- LocalDate, LocalTime, LocalDateTime, ZonedDateTime, OffsetDateTime, Instant 등
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+java.time 패키지
+	- LocalDate: 날짜
+	- LocalTime: 시간
+	- LocalDateTime: 날짜 + 시간
+	- ZonedDateTime: 날짜 + 시간 + 시간대(Zonedld)
+	- OffsetDateTime: 날짜 + 시간 + 시간대
+	- instant
+
+java.time.fomat 패키지
+	- 형식화
+	- DateTimeFormatter
+
+java.time.temporal 패키지
+	- TemporalField - ChronoField: 날짜, 시간 필드 상수
+	- TemporalUnit - ChronoUnit: 날짜, 시간 단위 상수
+
+java.time.zone 패키지: 시간대
+	- Zonedld
+	- ZonedOffset 
+
+
+Temporal, TemporalAccessor - 조회 설계, TemporalAdjustor - 변경 설계
+- LocalDate, LocalTime, LocalDateTime, ZonedDateTime, OffsetDateTime, Instant
+
+날짜, 시간 객체
+	- of(int year, int month ....): 특정 날짜, 시간
+	- now(): 현재 날짜, 시간
+
+조회
+	- int get(TemporalField field);
+	- int getXxx(); 예) getYear(), getDayOfMonth(), ...
+
+변경 - 기존 객체의 불변성 유지, 새로운 객체 반환
+	- LocalDate with(TemporalField field, int value);
+	- LocalDate withXxx(int value);
+
+	- LocalDate plus(long addValue, TemporalUnit unit);
+	- LocalDate plusXxx(long addValue);
+
+	- LocalDate minus(long addValue, TemporalUnit unit);
+	- LocalDate minusXxx(long addValue);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

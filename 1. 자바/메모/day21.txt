@@ -1,0 +1,27 @@
+컬렉션 프레임워크
+컬렉션(Collection): 데이터군 - 자료
+프레임워크(Framework): 표준화된 설계
+
+자료구조
+Collection 인터페이스
+	1. List 인터페이스: 순자 자료구조
+		- 순서가 있는 자료, index
+		- 중복 자료 O
+		- ArrayList: 물리적 배열
+			- 조회속도가 빠르다
+			- 데이터 추가, 수정, 삭제 불리
+
+		- LinkedList
+			- 데이터 추가, 수정, 삭제 유리
+			- 조회속도는 ArrayList보다는 불리
+			- Queue 구현클래스
+
+	2. Set 인터페이스: 집합 자료구조
+		- 중복 허용 X
+			- equals(), hashcode()
+
+		- 순서 X
+		- HashSet
+		- TreeSet
+
+3. Map 인터페이스: 사전

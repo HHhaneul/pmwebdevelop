@@ -1,0 +1,4 @@
+Supplier: T get() - 매개변수 X, 반환값 O
+Consumer: void accept(T t) - 매개변수 O, 반환값 X
+function<T, R>: R apply(T t) - 매개변수 O, 반환값 O
+Predicate<T t>: boolean test(T t) - 매개변서 O, 반환값 boolean

@@ -1,0 +1,109 @@
+동일성 비교
+==
+
+동등성 비교
+동등한 가치
+Object
+    equals
+    hashCode // javascript는 == 동등 === 동일
+
+String 클래스
+
+1. String을 선언하는 두 가지 방법
+String str = "ABC";
+String = new String("ABC");
+
+(자료형... ...): 가변 매개변수
+
+- 산술연산자 +: 문자열 결합
+
+2. String 클래스의 final char[] 변수 - JDK12 이후 final byte[]
+	- 문자가 여러개(배열)
+	- 상수: 변경 불가
+	- 문자의 불변성
+	- 변경이 필요하면 새로 객체가 생성(추가, 수정)
+	- 잦은 문자영 추가 수정, 삭제 발생 -> 성능 저하
+
+3. StringBuffer와 StringBuilder 클래스 활용하기
+
+	버퍼 -> 임시 공간
+
+	StringBuffer: 쓰레드 안정성 확보
+	StringBuilder: 쓰레드 안정성X
+
+Wrapper 클래스
+
+Wrapper: 기본자료형을 감싸는 클래스
+
+1. 기본 자료형을 위한 클래스
+2. Wrapper 클래스의 종류
+byte	- Byte
+short	- Short
+int	- Integer
+long	- Long
+
+float	- Float
+double	- Double
+
+boolean	- Boolean
+char	- Character
+
+
+class Integer{
+	... 메서드, 상수, 변수
+			
+	private final int value;
+			
+	... 메서드, 상수, 변수
+			
+}			
+
+연산: 기본형 자료
+	동일한 자료형만 연산
+
+
+3. Integer 클래스 사용하기
+4. 오토박싱과 언박싱
+
+parse: 변환 (문자열 -> 자바 객체, 기본형)
+
+Integer
+	parseInt(...)	
+
+유용한 클래스
+1. java.lang.Math
+	abs(...): 절대값
+	ceil(...): 올림
+	floor(...): 버림
+	round(...): 반올림
+	pow(double a, double b): a의 b승 / a^b
+	sqrt(double a) - 루트a
+	random(...): 0~1 미만의 랜덤 수 (double)
+
+
+2. java.util.Object
+3. java.util.Random
+4. java.util.Scanner
+5. java.util.StringTokenizer
+
+
+
+형식화 클래스
+1. DecimalFormat
+2. SimpleDateFormat
+3. ChoiceFormat
+4. MessageFormat
+
+날짜와 시간
+1. Date
+2. Calendar
+
+
+java.time 패키지
+- java.time
+- java.time.format
+- java.time.temporal
+- java.time.zone
+
+1.핵심클래스
+1) LocalDate
