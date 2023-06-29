@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style>
+            /*.box{
+                transition-delay: 1s;
+                transition-timing-function: ease-in-out;
+                transition-duration: 1s;
+                transition-property:  all;
+                /* width, height, opacity;
+                opacity: 0.3;
+                width: 100px;
+                height: 100px;
+                background: orange;
+            }*/
+            .box{
+                transition: all 1s linear 1s;
+                opacity: 0.3;
+                width: 100px;
+                height: 100px;
+                background: orange;
+            }
+
+            .box:hover{
+                transform: rotate(270deg);
+                width: 200px;
+                height: 200px;
+                opacity: 1;
+            }
+        </style>
+        <div class="box"></div>
+    </body>
+</html>
