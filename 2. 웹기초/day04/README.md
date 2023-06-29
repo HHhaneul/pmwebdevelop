@@ -73,7 +73,7 @@
                         50% 이상이면 원이된다!
 
         
-#레이아웃
+# 레이아웃
 
     box-sizing:
             - content-box: 기본값: 너비, 높이 기준: 컨텐츠 내용
@@ -115,7 +115,7 @@
 
     }
 
-#그래픽
+# 그래픽
     background - 배경색, 배경 이미지
         - background-color: 색상 -  1) 색상명
                                     2) rgb(),rgba()
@@ -134,7 +134,8 @@
         - 단축 표기법
         background: [색상] 이미지(url) 반복 위치
 
-#overflow
+# overflow
+
     - 컨텐츠의 내용이 영역 크기보다 클 경우
         - visible: 기본 값: 넘치더라도 노출!
         - hidden: 넘치는 영역 감추기
@@ -148,7 +149,8 @@
         - white-spacing: wrap - 글자가 끝에 도달하면 다음 줄 개행
                          nowrap - 줄개행 X 
 
-#transition
+# transition
+
     - 전환효과 (CSS가 적용 되기 전 지연시간 - 애니메이션 효과)
     - transition-duration: 전환 효과 진행 시간
     - transition-property: 전환 효과 적용 속성
