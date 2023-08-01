@@ -1,0 +1,113 @@
+프로시저 - 저장프로그램
+
+CREATE PROCEDURE 함수명([IN|OUT] 매개변수 ...)
+BEGIN
+    // 수행 코드 정의
+    
+END;
+
+CALL 프로시저명(값);
+
+1. 삽입 작업을 하는 프로시저
+2. 제어문을 사용하는 프로시저
+3. 결과를 반환하는 프로시저
+4. 커서를 사용하는 프로시저
+
+
+
+
+트리거
+    - 추가, 수정, 삭제 -> 발생하는 이벤트 정의
+
+    AFTER INSERT|DELETE|UPDATE
+
+    BEFORE INSERT|DELETE|UPDATE
+
+    INSTEAD OF INSERT
+
+    CREATE TRIGGER 트리거명
+        AFTER UPDATE
+
+    내장 객체
+    new: INSERT 쿼리 시 -> 새로 추가된 데이터
+    old: UPDATE, DELETE 쿼리 시 -> 기존 데이터
+
+사용자 정의함수
+
+CREATE FUNCTION 함수명 (매개변수) RETURNS 반환자료형
+
+
+
+
+
+
+
+
+
+
+
+delimiter //
+create procedure insertbook(
+	mybookid int,
+    mybookname varchar(40),
+    mypublisher varchar(40),
+    myprice int
+)
+begin
+	insert into book values(mybookid, mybookname, mypublisher, myprice);
+end;
+//
+delimiter ;
+
+
+
+
+
+
+
+
+
+
+
+delimiter //
+create procedure listcustomer()
+begin
+declare endofrow boolean default false;
+declare cname varchar(20);
+declare adress varchar(40);
+declare customercursor cursor for
+select * from customer where address like '%대한민국%';
+
+declare continue handler
+	for not found set endofrow=true;
+    open customercursor;
+    cursor_loop: loop
+    if endofrow then leave cursor_loop;
+    end if;
+    
+    fetch customercusor into cname, address;
+    
+    select cname, address;
+    
+    end loop cursor_loop;
+    
+    close customercursor;
+end;
+//
+delimiter ;
+
+
+
+
+delimiter //
+create function upper2(word varchar(40)) returns varchar(40)
+begin
+	declare converted varchar(40);
+    
+    set converted = upper(word);
+    
+    return converted;
+    
+end;
+//
+delimiter ;

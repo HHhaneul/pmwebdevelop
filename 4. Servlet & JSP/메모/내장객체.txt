@@ -1,0 +1,16 @@
+PageContext pageContext: JSP 페이지 내에서 유지하는 속성
+HttpServletRequest request: 요청이 유지되는 동안 보유하는 속성
+HttpSession session: 세션이 유지되는 동안 보유하는 속성
+ServletContext application: 애플리케이션이 실행되는동안 보유하는 속성
+
+pageContext < request < session < application
+
+EL 변수로 적용되는 우선 순위: 범위가 좁을수록 먼저 적용, 범위가 넓을수록 나중에 적용
+
+pageContext < request < session < application
+
+각 속성 범위별로 조회할 수 있는 EL식 내장 객체
+pageScope: PageContext범위
+requestScope: HttpServletRequest 범위
+sessionScope: HttpSession 범위
+applicationScope: ServletContext 범위

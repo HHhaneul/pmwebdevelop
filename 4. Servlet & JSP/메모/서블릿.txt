@@ -1,0 +1,65 @@
+서블릿(Servlet)
+1. 서블릿(Servlet)의 개요
+    - 자바의 웹 기술
+
+    jakarta ee 10: jakarta.
+
+    java ee8: javax.
+
+2. 서블릿(Servlet) 클래스 작성하기
+    jakarta.servlet 패키지
+    jakarta.servlet.http 패키지
+        HttpServlet 클래스 (추상 클래스)
+
+    servlet-api
+
+        //jakarta servlet-api
+    API(Application Programming Interface): 애플리케이션 개발에 필요한 설계 툴
+
+    HttpServletRequest: 요청 관련 정보 + 기능
+
+    HttpServletResponse: 응답 관련 기능 + 헤더 정의
+
+3. web.xml 파일에 서블릿(Servlet) 등록하기
+    <web-app>
+        <servlet>
+            <servlet-name>서블릿 이름</servlet-name>
+            <servlet-class></servlet-class>
+            <init-param>
+                <param-name>설정이름</param-name>
+                <param-value>설정 값</param-value>
+            </init-param>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>서블릿 이름</servlet-name>
+            <url-pattern>요청 URL</url-pattern>
+        </servlet-mapping>
+    </web-app>
+
+4. XML 문법의 기초
+    <?xml version="1.0" encoding="..." ?>
+
+5. 웹 브라우저로부터 데이터 입력 받기
+    HttpServletRequest 
+        String getParameter(String name): 요청 데이터를 조회
+            GET - 쿼리스트링의 각각의 값
+            POST - body 데이터
+
+서블릿 3.0
+@WebServlet("주소");
+
+요청이 들어오면 쓰레드가 생성
+-> 멀티 쓰레드 방식으로 서블릿 객체를 접근
+-> 동시성 문제 발생할 수 있다.
+-> 인스턴스 변수 정의를 지양
+            
+6. init 메서드와 destroy 메서드
+
+서블릿 객체 생성
+init() 호출
+
+매 요청 시 각 요청 메서드가 호출
+doGet(...), doPost(...)...
+
+객체 소멸 전
+destroy() 호출

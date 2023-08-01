@@ -1,0 +1,63 @@
+마이바티스(mybatis) 프레임워크 설치 및 적용
+1. 설정
+    POOLED -> 커넥션 풀
+
+
+    <select ...>
+    <updete ...>
+    <insert ...>
+    <delete ...>
+
+
+2. TypeHandler 적용하기
+    1) java.time 패키지 적용
+        mybatis-typehandler-jsr310 의존성 추가
+        <typehandler>
+            <typeHandler handler="org.apache.ibatix.type.LocalDateTimeTypeHandler" />
+            <typeHandler handler="org.apache.ibatix.type.LocalDateTypeHandler" />
+            <typeHandler handler="org.apache.ibatix.type.LocalTimeTypeHandler" />
+        </typeHandler>
+    2) Enum 타입 적용
+    <typeHandler>
+        <typeHandler handler="org.apache.ibatis.type.EnumTypeHandler" />
+    </typeHandler>
+
+3. 적용해보기
+    SqlSession
+        - selectOne: 개별 조회
+        - selectList: 목록 조회
+        - insert: 추가
+        - update: 수정
+        - delete: 삭제
+
+4. MyBatis와 SLF4J 연동하기
+SLF4J API
+logback classic
+
+<settings>
+    <setting name="logImpl" value="SLF4J" />
+</settings>
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------
+트랜잭션
+SQL 작성의 단위
+
+
+COMMIT 할 때까지의 단위 트랜젝션: DB에 영구 반영
+
+COMMIT 전까지는 ROLLBACK: 복구 가능
+
+
+SQL1
+SQL2
+SQL3
+COMMIT -> DB에 영구 반영

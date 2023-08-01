@@ -299,9 +299,115 @@ HTML에서 CSS를 적용하는 방법
     - transition-duration: 전환 효과 진행 시간
     - transition-property: 전환 효과 적용 속성
     - transition-timing-function: 애니메이션 효과(linear, ease, ease-in, ease-out, ease-in-out)
+                                linear: 속도 일정
+                                ease:
+                                ease-in:
+                                ease-out:
+                                ease-in-out:
     - transition-delay: 전환효과 지연시간
 
     - 단축 표기법
-    transition: 속성 지연시간 애니메이션효과 전환발생 대기시간
+    transition: 속성 [지연시간 애니메이션효과 전환발생 대기시간]
 
 flexbox
+    display: flex; -> 부모요소에 적용 -> 자식 요소의 배치
+
+    - flex-direction: row - 기본값: 좌 -> 우 배치
+                      row-reverse: 우 -> 좌 배치
+                      column - 위 -> 아래 배치
+                      column-reverse - 아래 -> 위 배치
+
+    - justify-content: 좌, 우, 가운데 배치
+                        flex-start: 좌측 정렬(기본값)
+                        flex-end: 우측 정렬
+                        center: 가운데 정렬
+
+                        공백에 대한 정렬
+                        space-between
+                        space-around
+                        space-evenly
+
+    - align-items: 위, 가운데, 아래 정렬
+                    stretch: 부모 요소에 맞춰서 자식 요소를 높이를 늘려 고정
+                    flex-start: 상단 정렬
+                    flex-end: 하단 정렬
+                    center: 가운데 정렬
+
+    - flex-wrap: nowrap - 기본값: 모든 요소를 한 줄에 배치
+                 wrap - 끝에 도달 시 줄 개행
+
+    - flex-grow: 자식 요소 적용, 남아있는 여백의 비율별 배분
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

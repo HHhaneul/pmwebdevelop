@@ -1,0 +1,8 @@
+부속질의
+
+1. 스칼라 부속질의 - SELECT 부속질의
+2. 인라인 뷰 - FROM 부속질의
+3. 중첩질의 - WHERE 부속질의
+1) 비교 연산자
+2) IN, NOT IN
+3) EXISTS, NOT EXISTS

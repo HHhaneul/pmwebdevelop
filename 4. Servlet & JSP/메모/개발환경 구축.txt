@@ -1,0 +1,26 @@
+개발환경 구축
+
+tomcat10버전
+    - jakarta ee10: jakrta.
+
+tomcat0
+    - java ee8: javax.
+
+클래스 패스: 클래스를 인식할 수 있는 경로
+src/main/java: 자바코드
+src/main/resources: 정적 자원 - 설정 파일(xml, properties)
+                              - css, js, 템플릿 파일, 이미지
+
+src/test/java: 테스트용 자바 코드
+src/test/resources: 테스트용 정적 자원
+
+src/main/webapp: 기본 웹 경로 /
+src/main/webapp/WEB-INF: 설정
+                - web.xml: 웹 배치 설정 - 서블릿(servlet), 필터(filter)
+                - 웹 자원으로 노출
+                - classes
+                - lib
+
+메이븐 프로젝트
+    classes -> target
+    lib -> src/main/resources

@@ -1,0 +1,11 @@
+<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+
+
+width=device-width
+user-scalable=yes - 확대 가능, no - 확대불가
+initial-scale=1.0,
+maximun-scale=3.0/300% 확대 가능
+minimum-scale=0.5/50% 축소 가능
+
+아이콘
+http://xpressengine.github.io/XEIcon/

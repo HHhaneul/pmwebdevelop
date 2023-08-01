@@ -1,0 +1,13 @@
+_jspService 내장 객체
+
+1. HttpServletRequest request
+2. HttpServletResponse response
+3. PageContext pageContext / jakarta.servlet.jsp
+4. ServletContext application
+5. ServletConfig config
+6. HttpSession session
+7. Object page = this
+8. JspWriter out
+9. Throwable exception / page 디렉티브에 isErrorPage="true"
+
+JSP는 Servlet 클래스 파일로 번역해줌

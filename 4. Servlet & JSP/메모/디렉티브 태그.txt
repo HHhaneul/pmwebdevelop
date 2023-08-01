@@ -1,0 +1,40 @@
+1. 디렉티브 태그
+- JSP 페이지를 어떻게 처리할 것인지를 설정하는 태그
+- <%@ ... %>
+1) page: JSP 페이지에 대한 정보 설정
+<%@ page 속성명="값" 속성명="값" %>
+
+2) include
+- 페이지 출력 결과물을 물리적으로 번역된 서블릿 추가
+<%@ include file="jsp페이지,text/html; %>
+
+3) taglib
+    JSTL(JSP Standard Tag Library): 태그 형태의 편의 라이브러리
+        core 라이브러리
+            3.0
+            uri="jakarta.tags.core"
+
+            1.2
+            uri="http://java.sun.com/jsp/jstl/core"
+        format라이브러리
+            3.0
+            uri="jakarta.tags.fmt"
+
+            1.2
+            uri="http://java.sun.com/jsp/jstl/fmt"
+        function 라이브러리
+            3.0
+            uri="jakarta.tags.functions"
+
+            1.2
+            uri="http://java.sun.com/jsp/jstl/functions"
+
+    
+
+
+    servlet 6.0
+    JSTL 3.0
+        - JSTL API
+        - JSTL Implemetation
+
+2. JSP의 주석 처리

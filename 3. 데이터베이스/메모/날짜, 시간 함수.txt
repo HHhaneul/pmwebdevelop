@@ -1,0 +1,67 @@
+날짜, 시간 함수
+- 날짜: 기본 형식(ISO): 문자열 -> 날짜 자동 변환
+1. STR_TO_DATE(string, format)
+    -> 문자열 형식 날짜 -> 날짜
+
+2. DATE_FORMAT(date, format)
+    - 날짜 -> 형식화된 문자열
+
+3. ADDDATE(date, interval)
+                 INTERVAL 10 DAY -> 10일 후
+                 INTERVAL -10 DAY -> 10일 전
+
+4. DATE(date)
+    -> 날짜와 시간 -> 날짜 부분만 반환
+5. DATEDIFF(date1, date2)
+    -> date1, date2의 날짜의 차이(일수)
+
+6. SYSDATE(): 현재 시스템의 날짜와 시간
+
+NULL 값 처리
+- 값이 없음
+- 연산 불가
+
+1. NULLL 값에 대한 연산과 집계 함수
+    - NULL은 연산 X -> 집계 함수에서 제외
+
+2. NULL 값을 확인하는 방법 IS NULL, IS NOT NULL
+    비교 연산 X
+    IS NULL: 값이 NULL일 때 참
+    IS NOT NULL: 값이 NULL이 아닐 때 참
+
+    참고)
+        오라클
+            NULL, "(빈 값)" --> NULL
+
+        MySQL
+            NULL -> NULL, "(빈 값)" --> 값
+
+3. IFNULL 함수
+    컬럼에 NULL인 값을 기본 값으로 대체
+    IFNULL(컬럼명, '컬럼명이 NULL일 때 대체할 값')
+
+
+행번호 출력
+
+    SET 변수명:= 값;
+
+        변수명 앞에 @
+
+    SET @seq:=0;
+
+1. SET:= 기호
+
+%w	요일 순서(0~6, Sunday=0)
+%W	요일(Sunday ~ Saturday)
+%a	요일의 약자(Sun~Sat)
+%d	1달 중 날짜(00~31)
+%i	1년 중 날짜(001~366)
+%h	12시간(01~12)
+%H	24시간(00~23)
+%i	분(0~59)
+%m	월 순서(01~12, January=01)
+%b	월 이름 약어(Jan~Dec)
+%M	월 이름(January~December)
+%s	초(0~59)
+%Y	4자리 연도
+%y	4자리 연도의 마지막 2 자리

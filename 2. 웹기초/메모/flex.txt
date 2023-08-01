@@ -1,0 +1,34 @@
+부모: display: flex; // 자식요소에 대한 배치
+
+flex-direction:
+	row - 기본값: 좌 -> 우
+	row-reverse: 우 -> 좌
+	column: 상단 -> 하단
+	column-reverse: 하단 -> 상단
+
+justisfy-content:
+	flex-start: 좌로 정렬
+	flex-end: 우로 정렬
+	center: 중앙 정렬
+		
+	space-between
+	space-around
+	space-evenly
+
+align-items:
+	flex-start: 상단 정렬
+	flex-end: 하단 정렬
+	center: 중앙 정렬
+	stretch: 부모 요소에 맞추어서 자식 요소를 맞춘다
+
+flex-wrap:
+	nowrap: 한줄에 다 배치
+	wrap: 끝에 도달 시 줄 개행
+
+flex-grow:
+ 	여백을 비율별로 균등 배분
+	요소의 너비를 균등 배분할 경우 너비를 0으로 지정(width: 0;)
+
+index.html
+
+/

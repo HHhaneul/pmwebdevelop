@@ -1,0 +1,22 @@
+1. children
+2. parentElement
+3. firstElementChild
+4. lastElementChild
+5. nextElementSibling
+6. previousElementSibling
+7. childElementCount
+
+const button = document.getElementById("button");
+undefined
+let className = button.className;
+undefined
+className = className.split(" ");
+(3) ['class1', 'class2', 'class4']
+className.splice(2, 0, "class3");
+[]
+className;
+(4) ['class1', 'class2', 'class3', 'class4']
+className = className.join(" ");
+'class1 class2 class3 class4'
+button.className = className;
+'class1 class2 class3 class4'
