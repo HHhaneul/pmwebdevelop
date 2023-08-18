@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c732897d-e986-4540-97ee-3dfcee562daf" name="변경" comment="">
+    <list default="true" id="c732897d-e986-4540-97ee-3dfcee562daf" name="변경" comment="의존성..">
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/CommonFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/CommonRequestWrapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/CommonResponseWrapper.java" afterDir="false" />
@@ -12,6 +12,7 @@
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/MyFilter2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/servlets/FileDownloadServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/servlets/FileUploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam06/ex01.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam06/ex02.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam06/ex03.jsp" afterDir="false" />
@@ -25,7 +26,15 @@
       <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/WEB-APP/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/WEB-APP/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/main/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/main/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/ListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../메모/스프링 프레임워크.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../메모/스프링 프레임워크.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +175,15 @@
       <option name="presentableId" value="Default" />
       <updated>1692354181950</updated>
     </task>
+    <task id="LOCAL-00001" summary="의존성..">
+      <option name="closed" value="true" />
+      <created>1692362119695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692362119695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,5 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="의존성.." />
+    <option name="LAST_COMMIT_MESSAGE" value="의존성.." />
   </component>
 </project>

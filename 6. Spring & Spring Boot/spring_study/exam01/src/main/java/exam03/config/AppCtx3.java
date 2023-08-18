@@ -4,16 +4,14 @@ import exam03.models.member.*;
 import org.springframework.context.annotation.*;
 
 @Configuration
-@Import(value = AppCtx2.class)
 public class AppCtx3 {
-
     @Bean
-    public JoinService joinService(){
-        return new JoinService();
+    public MemberDao memberDao() {
+        return new MemberDao();
     }
 
     @Bean
-    public ListService listService() {
-        return new ListService();
+    public JoinValidator joinValidator() {
+        return new JoinValidator();
     }
 }
