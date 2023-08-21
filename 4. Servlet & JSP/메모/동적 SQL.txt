@@ -1,0 +1,10 @@
+마이바티스(mybatis) 프레임워크 설치 및 적용
+동적 SQL
+1. if
+2. choose, when, otherwise
+3. trim, where, set
+
+    - trim
+        - prefix
+        - prefixOverrides
+        - suffixOverrides
