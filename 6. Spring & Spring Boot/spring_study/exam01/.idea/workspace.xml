@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c732897d-e986-4540-97ee-3dfcee562daf" name="변경" comment="의존성..">
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/CommonFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/CommonRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/CommonResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/MyFilter1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/filters/MyFilter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/servlets/FileDownloadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/java/servlets/FileUploadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam06/ex01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam06/ex02.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam06/ex03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam07/ex01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam08/ex01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam09/ex01.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/exam09/ex01_ps.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/resources/mybatis/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../4. Servlet &amp; JSP/web_study/day05/src/main/webapp/WEB-APP/web.xml" beforeDir="false" />
+    <list default="true" id="c732897d-e986-4540-97ee-3dfcee562daf" name="변경" comment="4. Servlet &amp; JSP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/main/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/main/Ex02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/ListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../메모/스프링 프레임워크.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../메모/스프링 프레임워크.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,17 +28,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/김하늘/6. Spring & Spring Boot/spring_study/exam01/src/main/java/exam03",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/김하늘/6. Spring &amp; Spring Boot/spring_study/exam01/src/main/java/exam03&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\김하늘\6. Spring &amp; Spring Boot\spring_study\exam01\src\main\java\exam03" />
@@ -143,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="exam01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="exam01" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Ex02" />
@@ -183,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692362119695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="의존성..진행중">
+      <option name="closed" value="true" />
+      <created>1692363178479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692363178479</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4. Servlet &amp; JSP">
+      <option name="closed" value="true" />
+      <created>1692612791092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692612791092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +174,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="의존성.." />
-    <option name="LAST_COMMIT_MESSAGE" value="의존성.." />
+    <MESSAGE value="의존성..진행중" />
+    <MESSAGE value="4. Servlet &amp; JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Servlet &amp; JSP" />
   </component>
 </project>
