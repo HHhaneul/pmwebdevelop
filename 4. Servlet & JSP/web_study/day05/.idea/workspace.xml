@@ -5,39 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="decd1366-55fc-4f55-bbc1-22a7a5259b38" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../day01_2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day01_2/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day03/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2. 웹기초/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2. 웹기초/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2. 웹기초/메모/CSS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2. 웹기초/메모/CSS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2. 웹기초/메모/기본구조.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2. 웹기초/메모/기본구조.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/CommonFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/CommonRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/CommonResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/MyFilter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filters/MyFilter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/FileDownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/FileUploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex02.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam06/ex03.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam07/ex01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam08/ex01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam09/ex01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/exam09/ex01_ps.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-APP/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +62,18 @@
     "last_opened_file_path": "F:/김하늘/4. Servlet & JSP/web_study/day05",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.mybatis.exam.Ex05">
-    <configuration name="mybatis.exam.Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mybatis.exam.Ex01" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\김하늘\4. Servlet &amp; JSP\web_study\day05\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.tomcat10">
+    <configuration name="Ex06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mybatis.exam.Ex06" />
       <module name="day05" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +149,8 @@
       <option name="port" value="3000" />
       <option name="tomcatInfo">
         <TomcatInfo>
-          <option name="name" value="Apache Tomcat/10.1.11" />
-          <option name="path" value="E:/apache-tomcat-10.1.11" />
+          <option name="name" value="Apache Tomcat/10.1.11 (2)" />
+          <option name="path" value="$PROJECT_DIR$/../../../../Download/apache-tomcat-10.1.11" />
           <option name="version" value="10.1.11.0" />
         </TomcatInfo>
       </option>
@@ -168,7 +162,7 @@
     </configuration>
     <list>
       <item itemvalue="Smart Tomcat.tomcat10" />
-      <item itemvalue="애플리케이션.mybatis.exam.Ex01" />
+      <item itemvalue="애플리케이션.Ex06" />
       <item itemvalue="애플리케이션.mybatis.exam.Ex02" />
       <item itemvalue="애플리케이션.mybatis.exam.Ex03" />
       <item itemvalue="애플리케이션.mybatis.exam.Ex04" />
@@ -176,11 +170,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Ex06" />
         <item itemvalue="애플리케이션.mybatis.exam.Ex05" />
         <item itemvalue="애플리케이션.mybatis.exam.Ex04" />
         <item itemvalue="애플리케이션.mybatis.exam.Ex03" />
         <item itemvalue="애플리케이션.mybatis.exam.Ex02" />
-        <item itemvalue="애플리케이션.mybatis.exam.Ex01" />
       </list>
     </recent_temporary>
   </component>
