@@ -1,0 +1,5 @@
+spring-context
+spring-jdbc
+tomcat-jdbc
+mysql connector/j
+lombok

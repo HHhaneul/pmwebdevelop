@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c732897d-e986-4540-97ee-3dfcee562daf" name="변경" comment="Spring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/config/AppCtx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/config/ManualBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/main/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/JoinService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/JoinValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/JoinValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/ListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam04/models/member/sub/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/Message2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/config/AppCtx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam05/main/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/config/AppCtx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/main/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/models/member/JoinService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/models/member/JoinValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/models/member/JoinValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/models/member/ListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/models/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam06/models/member/MemberDao.java" afterDir="false" />
+    <list default="true" id="c732897d-e986-4540-97ee-3dfcee562daf" name="변경" comment="의존성 주입">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/config/AppCtx3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/main/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/main/Ex02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/JoinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam03/models/member/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam03/models/member/ListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../메모/스프링 프레임워크.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../메모/스프링 프레임워크.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/김하늘/6. Spring & Spring Boot/spring_study/exam01/src/main/java/exam06/models/member",
+    "last_opened_file_path": "F:/KimHaNeul/7. 통합구현/spring_boot_study/exam02",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -217,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692613078790</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="의존성 주입">
+      <option name="closed" value="true" />
+      <created>1692622331265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692622331266</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +246,7 @@
     <MESSAGE value="Servlet &amp; JSP" />
     <MESSAGE value="메모" />
     <MESSAGE value="Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring" />
+    <MESSAGE value="의존성 주입" />
+    <option name="LAST_COMMIT_MESSAGE" value="의존성 주입" />
   </component>
 </project>
